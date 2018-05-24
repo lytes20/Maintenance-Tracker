@@ -1,1 +1,4 @@
-*{margin: 0; padding: 0;}
+*{margin: 0; padding: 0;} /* Reseting the margin and padding of all elements from their defaults to zero*/
+
+/*Setting display bloack for elements that were added in html5, havent yet used some of the elements in my html*/
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
