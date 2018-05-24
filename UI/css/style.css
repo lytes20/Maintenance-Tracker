@@ -18,3 +18,7 @@ ul{list-style-type: none;}
     font-family: 'Open Sans', sans-serif; text-align: center; border: 1px solid rgb(211,211,211);
     box-shadow: 2px 2px 3px 0 rgba(117, 124, 129, 0.12);
 }
+
+input[type=text], input[type=password], input[type="submit"]{
+    width: 50%; margin:8px auto; padding: 14px 20px;
+}
