@@ -1,4 +1,16 @@
-*{margin: 0; padding: 0;} /* Reseting the margin and padding of all elements from their defaults to zero*/
+*{margin: 0; padding: 0; font-family: undefined,sans-serif!important} /* Reseting the margin and padding of all elements from their defaults to zero*/
 
 /*Setting display bloack for elements that were added in html5, havent yet used some of the elements in my html*/
 article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+
+body{width: 100%; background-color: #f4f4ef;}
+ul{list-style-type: none;}
+.main_header{
+    display: flex;
+    background: #fff;    
+    padding: 1.5rem 0;
+    box-shadow: 0 5px 15px 0 rgba(46, 61, 73, 0.12);
+}
+
+.main_header nav li{display: inline;}
+.nav_wrapper{align-items: flex-end;}
