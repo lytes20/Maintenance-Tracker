@@ -5,14 +5,15 @@ article, aside, figure, footer, header, hgroup, nav, section {display: block;}
 
 body{width: 100%; background-color: #f4f4ef;}
 ul{list-style-type: none;}
-header{}
+header{background: #02b3e4;}
 .main_header{
-    display: flex; background: #fff; padding: 1.5rem 0; box-shadow: 0 5px 15px 0 rgba(46, 61, 73, 0.12);
+    display: flex; background: #02b3e4;; padding: 1.5rem 0; box-shadow: 0 5px 15px 0 rgba(46, 61, 73, 0.12);
+    position: relative; color: white;
 }
-
+.main_header nav{position: absolute; position: absolute; right: 20px; bottom: 20px;}
 .main_header nav li{display: inline;}
 
-.nav_wrapper{align-items: flex-end;}
+.main_nav_menu ul li a{text-decoration: none;}
 
 .signup_login_form {
     background: #fff; width:40%; margin: 50px auto 40px; padding: 1em 5em 5em 5em;
@@ -21,7 +22,7 @@ header{}
 }
 
 input[type=text], input[type=password], input[type="submit"]{
-    width: 50%; margin:8px auto; padding: 14px 20px;
+    width:100%; margin:8px auto; padding: 14px 20px;
 }
 
 input[type=text], input[type=password] {
@@ -29,15 +30,18 @@ input[type=text], input[type=password] {
     border: 1px solid #dbe2e8; font-size: 14px; box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
     border-radius: 2px; color: #2e3d49;
 }
-
+.main_nav_menu ul li a{    
+    letter-spacing: 0; font-size: .875rem; text-transform: capitalize; height: 2.25rem;
+    font-weight: 400; margin-left: 2.5rem; line-height: 1.9375rem; color: white;
+}
 input[type = "submit"] {
-    background-color: rgb(50, 89, 218); color: white; padding: 14px 20px; margin: 8px 0; border: none;
+    background-color: #02b3e4; color: white; padding: 14px 20px; margin: 8px 0; border: none;
     cursor: pointer; font-family: 'Open Sans', sans-serif; font-size: 12px; font-weight: 600;
     border-radius: 4px; box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1); letter-spacing: 0.165em;
 }
 
 form a {
-    color:  rgb(50, 89, 218); text-decoration: none; font-weight: 600;
+    color: #02b3e4; text-decoration: none; font-weight: 600;
 }
 
 .form_heading{
