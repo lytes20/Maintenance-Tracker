@@ -5,6 +5,7 @@ article, aside, figure, footer, header, hgroup, nav, section {display: block;}
 
 body{width: 100%; background-color: #f4f4ef;}
 ul{list-style-type: none;}
+a{text-decoration: none; color: white;}
 header{background: #02b3e4;}
 .main_header{
     display: flex; background: #02b3e4;; padding: 1.5rem 0; box-shadow: 0 5px 15px 0 rgba(46, 61, 73, 0.12);
