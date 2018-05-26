@@ -6,3 +6,7 @@
 article, aside, figure, footer, header, hgroup, nav, section {display: block;}
 
 body{width: 100%; background-color: #f4f4ef;}
+
+.request{
+    border: 1px solid gray; width: 80%; margin: 20px; border-radius: 14px; padding: 20px;
+}
