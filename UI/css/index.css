@@ -1,33 +1,21 @@
-*{margin: 0; padding: 0; font-family: undefined,sans-serif!important} /* Reseting the margin and padding of all elements from their defaults to zero*/
-
-/*Setting display bloack for elements that were added in html5, havent yet used some of the elements in my html*/
-article, aside, figure, footer, header, hgroup, nav, section {display: block;}
-
-body{width: 100%; background-color: #f4f4ef; text-align: center;}
+/*Css unique to the index page*/
+body{text-align: center;}
 a{text-decoration: none;}
 h1{color: #02b3e4;}
 #landing{
     background: url(../images/bg_one.jpg) no-repeat; width: 100%; height: 662px; color:white;
     display: flex; align-items: center;
 }
-#child_landig{
-    vertical-align: middle; width: inherit;
-}
-#index_header{
-    background: white;
-}
+#child_landig{vertical-align: middle; width: inherit;}
+#index_header{ background: white;}
 .main_nav_menu ul li a{    
     letter-spacing: 0; font-size: .875rem; text-transform: capitalize; height: 2.25rem;
     font-weight: 400; margin-left: 2.5rem; line-height: 1.9375rem; color: #02b3e4; border: 1px solid #02b3e4;
     border-radius: 4px; padding: 14px 20px;
 }
-#landing_intro{
-    font-size: 40px; line-height: 1.15; font-weight: bold;
-}
+#landing_intro{font-size: 40px; line-height: 1.15; font-weight: bold;}
 
-#landing_subintro{
-    font-size: 36px; margin: 10px 0 20px;
-}
+#landing_subintro{font-size: 36px; margin: 10px 0 20px;}
 #get_started{
     display: inline-block !important; font-size: 26px; padding: 16px 20px !important; background: #1A237E;
     border-radius: 4px;
