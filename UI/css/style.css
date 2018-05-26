@@ -32,7 +32,8 @@ input[type=text], input[type=password] {
 }
 .main_nav_menu ul li a{    
     letter-spacing: 0; font-size: .875rem; text-transform: capitalize; height: 2.25rem;
-    font-weight: 400; margin-left: 2.5rem; line-height: 1.9375rem; color: white;
+    font-weight: 400; margin-left: 2.5rem; line-height: 1.9375rem; color: white; border: 1px solid white;
+    border-radius: 4px; padding: 14px 20px;
 }
 input[type = "submit"] {
     background-color: #02b3e4; color: white; padding: 14px 20px; margin: 8px 0; border: none;
