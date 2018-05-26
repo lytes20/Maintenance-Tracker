@@ -1,7 +1,7 @@
 /*
 **My Color codes**
     primary: #007bff;    secondary: #6c757d;    success: #28a745;
-    danger: #dc3545; success: #ffc107;    info: #17a2b8;    light: #f8f9fa
+    danger: #dc3545; warning: #ffc107;    info: #17a2b8;    light: #f8f9fa
 */
 *{margin: 0; padding: 0; font-family: undefined,sans-serif!important} /* Reseting the margin and padding of all elements from their defaults to zero*/
 
@@ -58,3 +58,8 @@ form a {
 hr{
     width: 100%; height: 1px; background-color: #dbe2e8; border: none; margin: 10px 0;
 }
+
+.request_status, .request_status_finished{background-color: #17a2b8; border-color: #17a2b8; letter-spacing: 0; font-size: .875rem; height: 2rem;
+    font-weight: 400; line-height: 1.9375rem; color: white;padding: 14px 20px;}
+.request_status_finished{background-color: #28a745; border-color: #28a745;}
+.request_status_delivered{background-color: #ffc107; border-color: #ffc107;}
