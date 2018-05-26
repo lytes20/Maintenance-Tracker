@@ -1,12 +1,6 @@
 /*Css unique to the homepage alone*/
 
-*{margin: 0; padding: 0; font-family: undefined,sans-serif!important} /* Reseting the margin and padding of all elements from their defaults to zero*/
-
-/*Setting display bloack for elements that were added in html5, havent yet used some of the elements in my html*/
-article, aside, figure, footer, header, hgroup, nav, section {display: block;}
-
-body{width: 100%; background-color: #f4f4ef;}
-
+.request a{text-decoration: none; color: #202124;}
 .request{
     border: 1px solid gray; width: 80%; margin: 20px; border-radius: 14px; padding: 20px;
 }
