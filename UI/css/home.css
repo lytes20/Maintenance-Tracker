@@ -1,6 +1,16 @@
 /*Css unique to the homepage alone*/
 
+.requests_wrapper{padding: 20px;}
 .request a{text-decoration: none; color: #202124;}
 .request{
     border: 1px solid gray; width: 80%; margin: 20px; border-radius: 14px; padding: 20px;
+}
+#create_newrequest_wrapper{width: 100%; height: 100px; background-color: gray;}
+h1{font-size: 26px;}
+h2{font-size: 20px;}
+.request_status{
+    letter-spacing: 0; font-size: .875rem; height: 2rem;
+    font-weight: 400; line-height: 1.9375rem; color: #02b3e4; background-color: #007bff;
+    border-color: #007bff;
+    padding: 14px 20px;
 }

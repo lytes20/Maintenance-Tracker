@@ -1,3 +1,8 @@
+/*
+**My Color codes**
+    primary: #007bff;    secondary: #6c757d;    success: #28a745;
+    danger: #dc3545; success: #ffc107;    info: #17a2b8;    light: #f8f9fa
+*/
 *{margin: 0; padding: 0; font-family: undefined,sans-serif!important} /* Reseting the margin and padding of all elements from their defaults to zero*/
 
 /*Setting display bloack for elements that were added in html5, havent yet used some of the elements in my html*/
