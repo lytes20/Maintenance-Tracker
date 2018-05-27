@@ -3,6 +3,7 @@
     font-family: 'Open Sans', sans-serif; border: 1px solid rgb(211,211,211);
     box-shadow: 2px 2px 3px 0 rgba(117, 124, 129, 0.12);
  }
+ .admin_requests h1{margin: 0px;}
 .request{
     margin: 3px 0px 0px 0px; border-radius: 0px; border-bottom: 1px solid #ddd;
     border-top:2px solid transparent; border-left:2px solid transparent; border-right: 2px solid transparent;
