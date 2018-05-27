@@ -1,6 +1,13 @@
-.admin_requests{border: 1px solid red; margin-top: 10px;}
-.request{margin: 2px 0px 0px 0px;}
-h1{font-size: 16px; margin-left: 20px;}
+.admin_requests{
+    background: #fff; margin: 20px 20px 20px 20px;
+    font-family: 'Open Sans', sans-serif; border: 1px solid rgb(211,211,211);
+    box-shadow: 2px 2px 3px 0 rgba(117, 124, 129, 0.12);
+ }
+.request{
+    margin: 3px 0px 0px 0px; border-radius: 0px; border-bottom: 1px solid #ddd;
+    border-top:2px solid transparent; border-left:2px solid transparent; border-right: 2px solid transparent;
+}
+.requests_wrapper h1{font-size: 16px;background-color: dimgray; color: white; padding: 20px;}
 .btn {
     border:none; color: #2e3d49;
     background-color: white; padding: 6px 20px; border-radius: 4px; font-size: 20px;
@@ -9,3 +16,4 @@ h1{font-size: 16px; margin-left: 20px;}
  .btn_approve{background-color: #28a745;}
  .btn_disapprove{background-color: #dc3545; }
  .btn_resolve{background-color: #007bff;}
+ 
