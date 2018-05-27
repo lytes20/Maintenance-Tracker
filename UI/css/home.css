@@ -5,7 +5,7 @@
 
 #create_newrequest_wrapper{width: 100%; height: 120px; background-color: gray; 
     text-align: center; color: white;}
-h1{font-size: 26px; margin-left: 20px;}
+
 h2{font-size: 20px;}
 #button_new_request{
     background-color: white; border-color: white; width: 80px; height: 80px; margin: 10px;
