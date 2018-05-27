@@ -21,3 +21,6 @@ h2{font-size: 20px;}
    
 }
 .request p{justify-content: left;}
+.request_status_container{overflow: auto;}
+.request_status{float: right;}
+
