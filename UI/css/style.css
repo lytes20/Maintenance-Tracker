@@ -77,8 +77,16 @@ hr{
     width: 100%; height: 1px; background-color: #dbe2e8; border: none; margin: 10px 0;
 }
 
+.request{
+    border: 1px solid gray; width: 80%; margin: 20px; border-radius: 14px; padding: 20px;
+    display: flex; position: relative;    
+}
 .request_status, .request_status_finished{background-color: #17a2b8; border-color: #17a2b8; letter-spacing: 0; font-size: .875rem; height: 2rem;
     font-weight: 400; line-height: 1.9375rem; color: white;padding: 10px; width: 20%; border-radius: 10px; text-align: center;
 }
 .request_status_finished{background-color: #28a745; border-color: #28a745;}
 .request_status_pending{background-color: #ffc107; border-color: #ffc107;}
+.request a img{width: 100px; height: 100px; border-radius: 14px;}
+.request_status_container{overflow: auto;}
+.request_status{float: right;}
+.request_date{font-size: 10px; color: gray; margin-top: 2px;}
