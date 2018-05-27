@@ -1,2 +1,9 @@
 .admin_requests{border: 1px solid red; margin-top: 10px;}
-.request{margin: 0;}
+.request{margin: 2px 0px 0px 0px;}
+h1{font-size: 16px; margin-left: 20px;}
+.btn {
+    border:none; color: #2e3d49;
+    background-color: white; padding: 6px 20px; border-radius: 4px; font-size: 20px;
+    font-weight: bold;
+ }
+ .btn_approve{background-color: #28a745;}
