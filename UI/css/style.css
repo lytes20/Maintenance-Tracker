@@ -86,7 +86,11 @@ hr{
 }
 .request_status_finished{background-color: #28a745; border-color: #28a745;}
 .request_status_pending{background-color: #ffc107; border-color: #ffc107;}
+.request .text_container{width: 80%;}
 .request a img{width: 100px; height: 100px; border-radius: 14px;}
 .request_status_container{overflow: auto;}
 .request_status{float: right;}
+.request p{margin:5px 5px 5px 0; font-size: 12px;}
 .request_date{font-size: 10px; color: gray; margin-top: 2px;}
+.request a{text-decoration: none; color: #202124;}
+.image_container{position: absolute; right: 10px; top: 10px;}
