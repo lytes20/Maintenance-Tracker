@@ -14,3 +14,4 @@ To run this code on your local machine, first clone the repository
 $ git clone https://github.com/lytes20/Maintenance-Tracker.git
 ```
 Locate the `index.html` file in the `UI` directory and open it in your browser
+<img src="screenshots/index.png">
