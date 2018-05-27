@@ -27,15 +27,33 @@ header{background: #02b3e4;}
     box-shadow: 2px 2px 3px 0 rgba(117, 124, 129, 0.12);
 }
 
-input[type=text], input[type=password], input[type="submit"]{
+input[type=text], input[type=password], input[type="submit"], textarea, input[type=file]{
     width:100%; margin:8px auto; padding: 14px 20px;
 }
-
-input[type=text], input[type=password] {
+.upload_image_bg{border: 1px solid red;
+    height: 100px; box-sizing: border-box; padding-left: 15px; padding-right: 15px;
+    border: 1px solid #dbe2e8; font-size: 14px; box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+    border-radius: 2px; background: #f4f4ef; padding-top: 20px;
+}
+.upload_image_wrapper {
+    position: relative; overflow: hidden; display: inline-block;
+  }
+  
+  .btn {
+    border: 1px solid #02b3e4; color: #2e3d49;
+    background-color: white; padding: 14px 20px;
+    border-radius: 4px; font-size: 20px; font-weight: bold;
+  }
+  
+  .upload_image_wrapper input[type=file] {
+    font-size: 100px; position: absolute; left: 0; top: 0; opacity: 0;
+  }
+input[type=text], input[type=password], textarea {
     height: 44px; box-sizing: border-box; padding-left: 15px; padding-right: 15px;
     border: 1px solid #dbe2e8; font-size: 14px; box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
     border-radius: 2px; color: #2e3d49;
 }
+textarea{height: 100px;}
 .main_nav_menu ul li a{    
     letter-spacing: 0; font-size: .875rem; text-transform: capitalize; height: 2.25rem;
     font-weight: 400; margin-left: 2.5rem; line-height: 1.9375rem; color: white; border: 1px solid white;
