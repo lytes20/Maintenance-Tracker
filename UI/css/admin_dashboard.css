@@ -7,7 +7,7 @@
     margin: 3px 0px 0px 0px; border-radius: 0px; border-bottom: 1px solid #ddd;
     border-top:2px solid transparent; border-left:2px solid transparent; border-right: 2px solid transparent;
 }
-.requests_wrapper h1{font-size: 16px;background-color: dimgray; color: white; padding: 20px;}
+.requests_wrapper h1{font-size: 16px;background-color: dimgray; color: gray; padding: 20px;}
 .btn {
     border:none; color: #2e3d49;
     background-color: white; padding: 6px 20px; border-radius: 4px; font-size: 20px;
@@ -16,4 +16,8 @@
  .btn_approve{background-color: #28a745;}
  .btn_disapprove{background-color: #dc3545; }
  .btn_resolve{background-color: #007bff;}
+ .resolved_requests_container h1{background-color: #C6D9B7}
+ .approved_requests_container h1{background-color: #F0F0C6;}
+ .new_requests_container h1{background-color:  #D1E0ED;}
+ .disregarded_requests_container h1{color: white;}
  
