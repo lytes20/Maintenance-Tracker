@@ -15,3 +15,6 @@ $ git clone https://github.com/lytes20/Maintenance-Tracker.git
 ```
 Locate the `index.html` file in the `UI` directory and open it in your browser
 <img src="screenshots/index.png">
+
+## Hosted site on github
+You can find the hosted site [here](https://lytes20.github.io/Maintenance-Tracker/)
